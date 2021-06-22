@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    background-color: #F0A83E;
+}
+
+.ofertas {
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+}
+
+body>header>div>div>* {
+    display: inline-block;
+}
+
+#top {
+    float: right;
+    margin-right: 2%;
+}
+
+.listicas {
+    display: inline-block;
+}
+
+div>div>ul>* {
+    display: inline-block;
+}
+
+.banner-2 {
+    margin-top: 1%;
+}
+
+.banner-3 {
+    float: right;
+    margin-right: 1%;
+}
+
+#fotohuellita {
+    background-size: cover;
+    width: 100%;
+}
+
+div.huellita-foto {
+    float: right;
+    padding-top: 7%;
+    padding-right: 11%;
+}
+
+section {
+    background-image: url('../img/00004.png');
+    background-size: cover;
+    height: 300px;
+    padding-top: 1%;
+    position: relative;
+}
+
+button {
+    right: 207px;
+    margin-left: 55px;
+    margin-top: 6px;
+}
+
+h2.h2-first {
+    font-size: 33px;
+    color: black;
+    margin: 0px;
+    background-color: #FBFAF6;
+    padding: 8px;
+}
+
+.contenedor1, nav, .bottom-container {
+    background-color: #FBFAF6;
+    margin: 0px;
+}
+
+.bottom-container {
+    height: 389px;
+    margin: 0px;
+    background: #3C2313;
+    position: relative;
+}
+
+p {
+    padding-left: 16px;
+}
+
+footer {
+    background: #222222;
+}
+
+p.bottom-text {
+    color: white;
+    padding: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+}
+
+img.fotos-abajo {
+    display: block;
+    padding: 10px 10px;
+}
+
+h2 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+body>div>p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    margin-top: 6px;
+}
+
+img.foto-logo-abajo {
+    position: absolute;
+    right: 6em;
+    top: 41%;
+}
+
+h1 {
+    background-color: white;
+    border-radius: 16% 16% 16% 16%;
+    padding: 5px;
+}
