@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    height: 678px;
+    width: 1024px;
+}
+
+header {
+    width: 1019pxx;
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>img {
+    margin-left: 22px;
+}
+
+li {
+    display: inline-block;
+}
+
+#colorlink {
+    color: white;
+}
+
+ul.caja1 {
+    padding-right: 20px;
+}
+
+main {
+    width: auto;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 229, 229, 0.2);
+}
+
+.contenedor1, .contenedor2 {
+    width: 490px;
+    height: 350px;
+    border-radius: 1% 1% 1% 1%;
+}
+
+div.contenedor1 {
+    background-image: url('../img/pic-left-big.jpg');
+    display: flex;
+}
+
+.texto1 {
+    width: 350.64px;
+    height: 28px;
+    align-self: flex-start;
+    margin-top: 23px;
+    margin-left: 24px;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+span.enviogratis {
+    color: red;
+    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+p.text-container-right {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 3px;
+}
+
+h3.top {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    left: 25px;
+    top: 99px;
+}
+
+.contenedor2 {
+    position: relative;
+    width: 490px;
+    height: 350px;
+    background-color: white;
+}
+
+img.foto-arbol-right {
+    position: relative;
+    left: 341px;
+    top: 107px;
+}
+
+h2, p.text-container-right, h3.top {
+    margin-left: 56px;
+}
+
+h2.podio {
+    color: red;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    top: 38px;
+    left: 119px;
+}
+
+footer {
+    width: auto;
+    height: 150px;
+    left: calc(50% - 1024px/2);
+    bottom: 8px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-abajo {
+    width: 212px;
+    height: 80px;
+    margin-right: 37px;
+}
+
+li.listas-abajo {
+    display: block;
+    margin-left: 28px;
+    padding: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Creado con mucho amor por Fernando Bernatte
+email: col5s@icloud.com */
