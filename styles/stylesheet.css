@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+}
+
+body {
+    max-width: 1250px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: #F0A83E;
+}
+
+.ofertas {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#top {
+    float: right;
+    margin-right: 2%;
+}
+
+.listicas {
+    display: inline-block;
+}
+
+.banner-2 {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.nav-arriba {
+    display: inline-block;
+}
+
+.banner-3 {
+    padding: 0px;
+    background-color: #F0A83E;
+    padding-right: 26px;
+    padding-bottom: 8px;
+}
+
+#fotohuellita {
+    background-size: cover;
+    width: 100%;
+}
+
+.first-section {
+    background-image: url('../img/00004.png');
+    background-size: cover;
+    height: 300px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.huellita-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 24px;
+}
+
+button {
+    right: 207px;
+    background: #F0A83E;
+    border-radius: 18px;
+    margin: 21px;
+    padding: 11px;
+    width: 86px;
+}
+
+button.push-comederos {
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    background: #F0A83E;
+    border-radius: 5px;
+    color: white;
+}
+
+h2.h2-first {
+    font-size: 33px;
+    color: black;
+    margin: 0px;
+    background-color: #FBFAF6;
+    padding: 8px;
+}
+
+.contenedor1, nav, .bottom-container {
+    background-color: #FBFAF6;
+    margin: 0px;
+}
+
+.bottom-container {
+    margin: 0px;
+    background: #3C2313;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 84px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+p {
+    padding-left: 16px;
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+footer {
+    background: #222222;
+}
+
+p.bottom-text {
+    color: white;
+    padding: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+}
+
+img.fotos-abajo {
+    padding: 10px 10px;
+}
+
+h2 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+body>div>p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    margin-top: 6px;
+}
+
+img.foto-logo-abajo {
+    position: absolute;
+    right: 3em;
+    top: 48%;
+}
+
+h1 {
+    background-color: white;
+    padding: 5px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    padding-top: 13px;
+}
+
+.middle-list {
+    padding: 0px;
+}
+
+.middle-list-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 242px;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+div>p.precio {
+    color: #F0A83E;
+}
+
+.productosMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3.contactenos {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 11px;
+    color: #FFFFFF;
+    margin: 3px;
+    background: #3C2313;
+    border-radius: 15px;
+    width: 290px;
+    height: 34px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.botones2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3.arriba-c {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    padding: 16px;
+}
+
+footer {
+    display: flx;
+}
+
+.last-text {
+    color: white;
+    padding-left: 0px;
+}
