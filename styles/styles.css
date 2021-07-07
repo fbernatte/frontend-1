@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
+    padding-left: 13px;
+    padding-top: 6px;
+    align-content: center;
+    flex-flow: wrap;
+    padding-bottom: 4px;
+}
+
+.main {
+    width: 100%;
+    background-image: url(../img/main-pic-food-square.png);
+    height: 278px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.middle {
+    width: 251px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: right;
+    color: #3C2313;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.middle-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 11px;
+}
+
+.middle-3>button {
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    color: #3C2313;
+    font-size: 1.2rem;
+}
+
+.lower-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.toy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #3C2313;
+}
+
+p.price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #F0A83E;
+}
+
+footer {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 15px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    background: #3C2313;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-inside {
+    margin: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-inside-text-2 {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.bottom-inside-text {
+    left: calc(50% - 95px/2 + 14.5px);
+    bottom: 241px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8A8787;
+}
+
+h4 {
+    font-family: Roboto;
+    font-size: 40px;
+    color: #3C2313;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.form-boxes {
+    background: #3C2313;
+    width: 210px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 9px
+}
+
+.form-boxes-text {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 9px;
+    color: #AB9C9C;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.reset {
+    border-radius: 25px;
+    width: 80px;
+    height: 4vh;
+    background: #8A8787;
+    font-family: romo;
+    color: white;
+}
+
+.submit {
+    border-radius: 25px;
+    width: 80px;
+    height: 4vh;
+    background: #F0A83E;
+    font-family: romo;
+    color: white;
+}
+
+.main-pic-food {
+    width: 100%;
+}
+
+@media (min-width:950px) {
+    .botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    body {
+        width: 68%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lower-products {
+        width: 103%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+    .bottom {
+        display: flex;
+        background: #3C2313;
+        flex-direction: row;
+        align-items: center;
+    }
+}
